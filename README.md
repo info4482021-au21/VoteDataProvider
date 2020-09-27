@@ -4,7 +4,24 @@ This library provides a simple interface for pulling randomly generated election
 
 # How to use
 
-To use this library, simply paste this implementation line to the (App's) gradle.build dependencies block. 
+To use this library, simply paste this line in the (Project's) gradle.build file in the block under *allprojects -> repositories*
+  ```
+  allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+  }
+  ```
+  
+  as well as pasting this line  the (App's) gradle.build dependencies block, 
+  ```    
+  dependencies {
+
+    implementation 'com.github.towm1204:VoteDataProvider:v1.0'
+
+  }
+  ```
 
 # Documentation
 
