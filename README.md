@@ -1,6 +1,6 @@
 # VoteDataProvider
 
-This library provides a simple interface for pulling randomly generated election data
+This library provides a simple interface for pulling generated election data
 
 # How to use
 
@@ -17,9 +17,7 @@ To use this library, simply paste this line in the (Project's) gradle.build file
   as well as pasting this line  the (App's) gradle.build dependencies block, 
   ```    
   dependencies {
-
-    implementation 'com.github.towm1204:VoteDataProvider:v1.0'
-
+    implementation 'com.github.info448-au20:VoteDataProvider:v1.5'
   }
   ```
 
