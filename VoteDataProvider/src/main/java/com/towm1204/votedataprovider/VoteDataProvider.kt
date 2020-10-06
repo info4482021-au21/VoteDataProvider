@@ -120,8 +120,9 @@ class VoteDataProvider {
                 578023,
                 705838)
             val result = mutableListOf<StateResult>()
+            val r = Random(1)
             for (i in 0..50) {
-                val ratio = Random(1).nextDouble(0.6)
+                val ratio = r.nextDouble(0.6)
                 val rep = (pops[i] * ratio).toInt()
                 val dem = (pops[i] - rep).toInt()
                 result.add(createStateResult(
