@@ -17,7 +17,7 @@ To use this library, simply paste this line in the (Project's) gradle.build file
   as well as pasting this line  the (App's) gradle.build dependencies block, 
   ```    
   dependencies {
-    implementation 'com.github.info448-au20:VoteDataProvider:v1.5'
+    implementation 'com.github.info448-au20:VoteDataProvider:v1.6'
   }
   ```
 
