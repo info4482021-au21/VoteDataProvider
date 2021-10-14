@@ -19,7 +19,7 @@ To use this library, simply paste this line in the (Project's) settings.gradle f
   }
   ```
   
-  Make sure to go to File > Sync Prokect With Gradle Files.
+  Make sure to go to File > Sync Project With Gradle Files.
 
 # Documentation
 
