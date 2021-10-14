@@ -18,6 +18,8 @@ To use this library, simply paste this line in the (Project's) settings.gradle f
     implementation 'com.github.info4482021-au21:VoteDataProvider:v1.6'
   }
   ```
+  
+  Make sure to go to File > Sync Prokect With Gradle Files.
 
 # Documentation
 
