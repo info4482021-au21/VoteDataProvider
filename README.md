@@ -4,10 +4,10 @@ This library provides a simple interface for pulling generated election data
 
 # How to use
 
-To use this library, simply paste this line in the (Project's) gradle.build file in the block under *allprojects -> repositories*
+To use this library, simply paste this line in the (Project's) settings.gradle file in the block under *dependencyResolutionManagement*
   ```
     repositories {
-        ...
+        jcenter() // Warning: this repository is going to shut down soon
         maven { url "https://jitpack.io" }
     }
   ```
