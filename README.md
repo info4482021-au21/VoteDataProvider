@@ -6,18 +6,16 @@ This library provides a simple interface for pulling generated election data
 
 To use this library, simply paste this line in the (Project's) gradle.build file in the block under *allprojects -> repositories*
   ```
-  allprojects {
     repositories {
         ...
-        maven { url 'https://jitpack.io' }
+        maven { url "https://jitpack.io" }
     }
-  }
   ```
   
   as well as pasting this line  the (App's) gradle.build dependencies block, 
   ```    
   dependencies {
-    implementation 'com.github.info448-au20:VoteDataProvider:v1.6'
+    implementation 'com.github.info4482021-au21:VoteDataProvider:v1.6'
   }
   ```
 
